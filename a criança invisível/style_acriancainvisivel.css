@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 940px;
+    box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.cabecalho {
+	width: 100%;
+    margin: 0 auto;
+    border: 20px solid #C5EBFE;
+    border-bottom: 0.5rem solid #C5EBFE;
+	background: linear-gradient(180deg, #C5EBFE, #FBFBFB);
+    padding: 1.25rem 0;
+}
+
+.caixa {
+    width: 100%;
+}
+
+.imagens__cabecalho {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.logo01 {
+    width: 13rem;
+}
+
+.logoprincipal {
+    width: 25rem;
+    align-items: baseline;
+}
+
+.logo02 {
+    width: 10rem;
+}
+
+.navegacao {
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3% 0% 0% 0%;
+    align-items: flex-end;
+    font-family: 'Cabin Sketch', cursive;
+	gap: 2%;
+}
+
+nav a {
+    text-transform: uppercase;
+	color: #EE0022;
+	font-size: 3.5rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FDFD66;
+	text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+    border-left: 1.25rem solid #C5EBFE;
+    border-right: 1.25rem solid #C5EBFE;
+    border-bottom: 0.5rem solid #C5EBFE;
+}
+
+.criancascorrendo {
+    width: 100%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.criancascorrendo:hover {
+	opacity: 0;
+	transition: 400ms;
+}
+
+.principal {
+    width: 100%;
+    margin: 0 auto;
+	padding: 3em 0;
+	background: linear-gradient(60deg, #C5EBFE, #FBFBFB);
+	border-left: 1.25rem solid #C5EBFE;
+    border-right: 1.25rem solid #C5EBFE;
+
+
+}
+
+.conheca__historia {
+    width: 100%;
+	color: #FF1D1D;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3rem;
+	margin: 0 0 3rem;
+	clear: left;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.conheca__historia:before {
+	content: "⎜";
+}
+
+.conheca__historia:after {
+	content: "⎜";
+}
+
+.imagem__texto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem__espelho {
+    width: 50%;
+}
+
+.trecho__livro {
+    width: 90%;
+}
+
+.trecho__livro p {
+    margin: 0 0 1em;
+	font-family: 'Grandstander', cursive;
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #001833;
+}
+
+.trecho__livro strong {
+	font-weight: bold;
+}
+
+.trecho__livro em {
+	font-style: italic;
+}
+
+#fontelele {
+	color: #03C04A;
+	font-family: 'Schoolbell', cursive;
+	font-size: 1,5rem;
+}
+
+#grito {
+	font-size: 2rem;
+	color: #03C04A ;
+	font-family: 'Schoolbell', cursive;
+
+}
+
+#fontemae {
+	font-size: 2rem;
+	color: #E05194;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.video {
+	width:  59.6%;
+	height: 19.375rem;
+	margin: 2em auto;
+	border: 8px solid rgb(255, 29, 29, 0.3);
+	border-radius: 10px;
+	box-shadow: -10px -10px 5px #F1EE8E;
+}
+
+.caracteristicas {
+    background-image: url("lousa_background.jpeg");
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+	padding: 3em 0;
+	border: 20px solid #7D533E;
+	border-radius: 10px;
+}
+
+    
+.titulo__caracteristicas {
+	font-family: 'Walter Turncoat', cursive;
+	color: #E0DBD1;
+    font-size: 2.5rem;
+    display: flex;
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.conteudo__caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.lista__caracteristicas {
+	font-family: 'Walter Turncoat', cursive;
+	color: #E0DBD1;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 3rem;
+
+}
+
+.itens:before {
+	content: "‒";
+}
+
+.imagem__professora {
+    width: 40%;
+}
+
+#professora{
+    width: 100%;
+}
+
+footer {
+	width: 103.2%;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(300deg, #C5EBFE, #FBFBFB);
+	padding: 12px 0;
+	border: 5px solid #C5EBFE;
+	border-radius: 10px;
+
+}
+
+.logo__rodape {
+    width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*css jogos*/
+
+.partes {
+    width: 100%;
+	margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+	padding: 50px 0;
+	border: 20px solid #FFCBD1;
+	border-radius: 10px;
+	background: linear-gradient(315deg, #FFF3F2, #FBFBFB);  
+}
+
+.partes li {
+    text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 25px;
+	box-sizing: border-box;
+	border: 5px solid #C5EBFE;
+	border-radius: 10px;
+    transition: 0.7ms;
+}
+
+.partes li:hover {
+	border-color: #FDFD66;
+}
+
+.partes li:active {
+	border-color: #EE0022;
+}
+
+.partes li:hover h4 {
+	font-size: 38px;
+	transition: 0.7ms;
+}
+
+.partes h4 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #EE0022;
+	text-decoration: none;
+}
+
+.imagem__pegapega {
+    width: 40%;
+}
+
+.imagem__golagol {
+    width: 51%;
+}
+
+.imagem__memoria {
+    width: 54%;
+}
+
+.jogo-descricao {
+	font-size: 1.1rem;
+}
+
+.cliqueejogue {
+	font-family: 'Changa One', cursive; 
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 10px; 
+}
+
+.pegapega {
+    background: linear-gradient(80deg, #FFEBEA, #FBFBFB); 
+}
+
+.golagol {
+    background: linear-gradient(80deg, #FFEBEA, #FBFBFB);
+}
+
+.memoria {
+    background: linear-gradient(80deg, #FFEBEA, #FBFBFB);
+}
+
+
+
+
+
+
+
+
+
+
+/*css pega-pega*/
+
+.jogo__pegapega {
+	width: 100%;
+	border: 20px solid #C5EBFE;
+}
+
+.titulo-jogo p {
+	margin: 0 0 2em;
+	text-align: center;
+}	
+
+
+.titulo__pegapega {
+	text-transform: uppercase;
+	color: #EE0022;
+	font-weight: bold;
+	font-size: 4.07rem;
+	text-decoration: none;
+	font-family: 'Changa One', cursive;
+	display: flex;
+	justify-content: center;
+	margin: 3% ;
+
+}
+
+.descreve__pegapega {
+	font-size: 1.5rem;
+	margin: 3%;
+	text-align: center;
+	font-family: 'Golos Text', sans-serif;
+	color: #0066FF;
+}
+
+.jogo__conteudo {
+	width: 100%;
+	padding-left: 22.2%;
+}
+
+.jogo {
+	width: 32rem;
+	height: 30rem;
+}
+
+
+
+
+
+
+
+
+
+/*css contato*/
+
+form {
+	margin: 2,5rem 0;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25rem;
+	font-weight: bold;
+	line-height: 2rem;
+	margin: 3%;
+	
+}
+
+.input__padrao {
+	width: 60%;
+	height: 2.5rem;
+	margin: 0 0 1.25rem;
+}
+
+#mensagem {
+	height: 10rem;
+}
+
+.preferencia__contato {
+	margin: 0 3% 3%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25rem;
+	font-weight: bold;
+	line-height: 2.5rem;
+}
+
+.eu__sou {
+	margin: 0 3% 3%;
+	display: flex;
+	font-size: 1.25rem;
+	font-weight: bold;
+	line-height: 2.5rem;
+}
+
+.opcoes__eusou {
+	width: 20px;
+}
+
+.receber__novidades {
+	display: flex;
+	flex-direction: column;
+	margin: 3%;
+}
+
+.radio {
+	margin-right: 1%;
+}
+
+.checkbox {
+	font-size: 1.25rem;
+	font-weight: bold;
+	line-height: 2.5rem;
+}
+
+.check__receber {
+	margin-right: 1%;
+}
+
+.enviar {
+	margin: 3% 0;
+	width: 40%;
+	padding: 1rem 0;
+	background: #FFA500;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.enviar:hover {
+	background: #EE0022;
+}
+
+
+table {
+	margin: 1% 3% 2%;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+
+@media (max-width: 900px) {
+	.imagens__cabecalho {
+		width: 1rem;
+	}
+
+	.links {
+		flex-direction: column;
+		align-items: center;
+		line-height: 4rem;
+	}
+}
